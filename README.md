@@ -36,6 +36,34 @@ Every case study produced by this skill follows a six-part arc:
 5. **Impact** — quantitative and qualitative results
 6. **Reflection** — learnings and what you'd do differently
 
+## Story formats
+
+The default six-part arc above is a strong baseline, but not every project fits the same shape. A bold redesign reads differently from a quiet usability fix; an interview walkthrough sounds different from a blog post. This skill can re-structure the same source material into whichever narrative format best serves your audience:
+
+| Format | Best for | Shape |
+|---|---|---|
+| **STAR** (Situation, Task, Action, Result) | Interview prep, recruiter scans | Tight, outcome-led, four crisp beats |
+| **Hero's Journey** | Long-form portfolio pieces | Status quo → call to adventure → trials → transformation |
+| **Problem → Solution → Impact** | Product design portfolios | Three-act, business-flavored |
+| **Before / After / Bridge** | Redesign and migration projects | Pain state → vision state → how you bridged it |
+| **Pyramid Principle** | Executive readouts, exec portfolios | Lead with the answer, then evidence, then detail |
+| **Pixar "Once upon a time…"** | Storytelling-forward decks | Once upon a time / every day / one day / because of that / until finally |
+| **Three-Act Structure** | Conference talks, live walkthroughs | Setup → confrontation → resolution |
+| **Jobs-to-be-Done narrative** | Strategy-led portfolios | When… I want to… so I can… |
+| **Decision Log** | Systems and platform work | A chronological chain of key decisions and their tradeoffs |
+
+Just tell the skill which one you want:
+
+```
+Use the case-study skill to write my checkout redesign as a Before/After/Bridge story
+```
+
+```
+/case-study — format it as STAR for an interview loop
+```
+
+The skill will preserve your facts, role, and metrics while reshaping the arc, headings, and pacing to match the chosen format.
+
 ## Installation
 
 ### Option 1: Drop it into your Claude skills folder
