@@ -41,13 +41,13 @@ Every case study produced by this skill follows a six-part arc:
 ### Option 1: Drop it into your Claude skills folder
 
 ```bash
-git clone https://github.com/<your-username>/claude-skill-case-study.git ~/.claude/skills/case-study
+git clone https://github.com/SonwaneyY/Portfolio-Case-Study.git ~/.claude/skills/case-study
 ```
 
 On Windows:
 
 ```powershell
-git clone https://github.com/<your-username>/claude-skill-case-study.git "$env:USERPROFILE\.claude\skills\case-study"
+git clone https://github.com/SonwaneyY/Portfolio-Case-Study.git "$env:USERPROFILE\.claude\skills\case-study"
 ```
 
 Claude Code will auto-discover the skill on next launch.
