@@ -89,7 +89,7 @@ Clone the repo anywhere and copy `PROJECT-TEMPLATE.md` into your portfolio proje
 Once installed as a Claude Code skill, just ask:
 
 ```
-Use the case-study skill to write a case study for [your project]
+Use the case-study skill
 ```
 
 Or invoke it directly:
@@ -98,7 +98,21 @@ Or invoke it directly:
 /case-study
 ```
 
-Claude will walk you through the six sections, ask targeted questions about your role and impact, and produce a draft you can paste into Notion, Framer, Webflow, or a PDF portfolio.
+### What happens next
+
+The skill runs a **structured intake before drafting anything**. It will ask you 7 questions in a single message:
+
+1. The project in one sentence
+2. Project type (consumer app, B2B, redesign, design system, 0→1, etc.)
+3. Your role and team
+4. Audience (recruiter scan, interview loop, portfolio site, exec readout, conference talk, blog post)
+5. Story format — pick one of the 9 formats above, or say "unsure" and the skill will recommend one based on your project type and audience
+6. Your hook (the most impressive outcome)
+7. Raw material you have (notes, Figma links, metrics, quotes, transcripts)
+
+Only after you answer does it draft. The result follows the format-specific beats and pacing for whichever shape you chose, preserves your facts and metrics (it will not invent numbers), and ends by offering to tighten, lengthen, reformat for a specific destination, or generate a second variant in a different format for comparison.
+
+If you've already given the skill some of this context in your opening message, it skips those questions and only asks the rest.
 
 ## Writing principles this skill enforces
 
