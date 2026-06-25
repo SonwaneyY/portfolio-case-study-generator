@@ -1,8 +1,8 @@
-# Claude Skill: Case Study
+# Portfolio Case Study Generator — A Claude Code Skill for Designers
 
-> A Claude Code skill that helps designers craft portfolio-ready case studies — structured, compelling, and recruiter-friendly.
+> Generate recruiter-ready portfolio case studies from raw project notes. A Claude Code skill that turns messy UX, product, and design work into structured, compelling case studies in 9 story formats.
 
-Turn raw project notes into polished design case studies that tell the story of your process, decisions, and impact. Built as a [Claude Code skill](https://docs.anthropic.com/en/docs/claude-code) you can drop into your `~/.claude/skills/` folder and invoke on demand.
+Turn raw project notes into polished design case studies that tell the story of your process, decisions, and impact. Built as a [Claude Code skill](https://docs.anthropic.com/en/docs/claude-code) you can drop into your `~/.claude/skills/` folder and invoke on demand. Works for portfolio sites, interview walkthroughs, and case study presentations.
 
 ## Why this skill?
 
@@ -69,13 +69,13 @@ The skill will preserve your facts, role, and metrics while reshaping the arc, h
 ### Option 1: Drop it into your Claude skills folder
 
 ```bash
-git clone https://github.com/SonwaneyY/Portfolio-Case-Study.git ~/.claude/skills/case-study
+git clone https://github.com/SonwaneyY/portfolio-case-study-generator.git ~/.claude/skills/case-study
 ```
 
 On Windows:
 
 ```powershell
-git clone https://github.com/SonwaneyY/Portfolio-Case-Study.git "$env:USERPROFILE\.claude\skills\case-study"
+git clone https://github.com/SonwaneyY/portfolio-case-study-generator.git "$env:USERPROFILE\.claude\skills\case-study"
 ```
 
 Claude Code will auto-discover the skill on next launch.
@@ -137,4 +137,4 @@ MIT
 
 ---
 
-**Keywords:** claude code skill, design case study, portfolio template, ux case study, product design portfolio, design storytelling, case study generator, claude ai skill
+**Keywords:** portfolio case study generator, claude code skill, design case study, ux case study, product design portfolio, portfolio template, case study writing, design storytelling, interview case study, claude ai skill, design portfolio generator
