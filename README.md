@@ -1,3 +1,5 @@
+![Portfolio Case Study Generator — a Claude Code skill that turns raw project notes into recruiter-ready design case studies](assets/social-preview.png)
+
 # Portfolio Case Study Generator — A Claude Code Skill for Designers
 
 > Generate recruiter-ready portfolio case studies from raw project notes. A Claude Code skill that turns messy UX, product, and design work into structured, compelling case studies in 9 story formats.
