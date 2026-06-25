@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="640" viewBox="0 0 1280 640">
+  <style>
+    .bg { fill: #0d1117; }
+    .bar { fill: #161b22; }
+    .mono { font-family: Consolas, 'DejaVu Sans Mono', 'Courier New', monospace; }
+    .dim { fill: #8b949e; }
+    .fg { fill: #e6edf3; }
+    .green { fill: #3fb950; }
+    .accent { fill: #d97757; }
+    .art { fill: #d97757; }
+  </style>
+
+  <rect class="bg" x="0" y="0" width="1280" height="640"/>
+  <rect class="bg" x="40" y="40" width="1200" height="560" rx="14" stroke="#30363d" stroke-width="1.5"/>
+
+  <rect class="bar" x="40" y="40" width="1200" height="48" rx="14"/>
+  <rect class="bar" x="40" y="64" width="1200" height="24"/>
+  <circle cx="72" cy="64" r="7" fill="#ff5f56"/>
+  <circle cx="98" cy="64" r="7" fill="#ffbd2e"/>
+  <circle cx="124" cy="64" r="7" fill="#27c93f"/>
+  <text class="mono dim" x="640" y="70" font-size="18" text-anchor="middle">claude code  —  case-study</text>
+
+  <text class="mono" x="90" y="140" font-size="22"><tspan class="green">$</tspan><tspan class="fg" xml:space="preserve">  /case-study</tspan></text>
+  <text class="mono dim" x="90" y="172" font-size="16">✦ intake → draft → ship</text>
+
+  <text class="mono art" x="90" y="248" font-size="22" xml:space="preserve">█████ █████ █████ █████   █████ █████ █   █ ████  █   █</text>
+  <text class="mono art" x="90" y="276" font-size="22" xml:space="preserve">█     █   █ █     █       █       █   █   █ █   █ █   █</text>
+  <text class="mono art" x="90" y="304" font-size="22" xml:space="preserve">█     █████ █████ ████    █████   █   █   █ █   █  ███ </text>
+  <text class="mono art" x="90" y="332" font-size="22" xml:space="preserve">█     █   █     █ █           █   █   █   █ █   █   █  </text>
+  <text class="mono art" x="90" y="360" font-size="22" xml:space="preserve">█████ █   █ █████ █████   █████   █   █████ ████    █  </text>
+
+  <text class="mono fg" x="90" y="430" font-size="34" font-weight="bold">portfolio case study generator</text>
+  <text class="mono dim" x="90" y="472" font-size="20">turn raw project notes into recruiter-ready case studies</text>
+  <text class="mono accent" x="90" y="504" font-size="20">9 story formats · STAR · Pyramid · Before/After/Bridge</text>
+
+  <rect x="90" y="540" width="6" height="6" fill="#d97757"/>
+  <text class="mono dim" x="110" y="552" font-size="18">github.com/SonwaneyY/portfolio-case-study-generator</text>
+  <text class="mono dim" x="1190" y="552" font-size="18" text-anchor="end">a Claude Code skill</text>
+</svg>
